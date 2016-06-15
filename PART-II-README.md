@@ -82,11 +82,11 @@ In a new file, `User.js`, create a User model with the schema properties email, 
 
 Declare a var referencing your _User_ model in `server.js`.
 
-## Step 4: Refactor our _Sighting_ Model
+## Step 4: Refactor our _Sighting_ Schema
 
-Add a property to the Sighting schema called `user` that will create a relationship between a _User_ and and _Sighting_. Each _Sighting_ should be required to be related to only one _User_. A user may have multiple sightings.
+Add a property to the Sighting schema called `user` that will create a relationship between a _User_ and _Sighting_. Each _Sighting_ should be required to be related to only one _User_. A user may have multiple sightings.
 
-Add another property called `bird` that will store embedded data related to a specific bird when a new sighting is created.
+Add another property called `birds` that will store embedded data related to birds when a new sighting is created.
 
 ## Step 4: Add POST for _User_
 
